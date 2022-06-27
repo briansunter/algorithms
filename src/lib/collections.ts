@@ -4,5 +4,5 @@ interface Comparable<T> {
   // @returns {number} A negative number if this object is less than the other object,
   // a positive number if this object is greater than the other object,
   // or 0 if the objects are equal.
-  compareTo(other: Comparable<T>): number;
+  compareTo(other: any): number;
 }
